@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DOM Ornek</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <h1>Örnekler</h1>
+  <main>
+    <img onclick="pauseAudio()" class="resim" src="img/img2.jpg" alt="off" />
+    <div class="mt-4">
+      <audio id="ses" class="ses" style="width: 0" controls="">
+        <source src="img/retro-ringtone .mp3" type="audio/mp3" />
+      </audio>
+
+      <button onclick="playAudio()" class="btn_1 btn-outline-warning">Ara</button>
+      <button class="btn_2 btn-outline-primary">Bağlat</button>
+
+      <button class="btn_3 btn-outline-danger">Konuş</button>
+    </div>
+
+  </main>
+
+  <script src="app.js">
+
+  </script>
+</body>
+
+</html>
