@@ -18,13 +18,14 @@
 
   <h1>Örnekler</h1>
   <main>
-    <img onclick="pauseAudio()" class="resim" src="img/img2.jpg" alt="off" />
+    <img  class="resim" src="img/img2.jpg" alt="off" />
     <div class="mt-4">
       <audio id="ses" class="ses" style="width: 0" controls="">
         <source src="img/retro-ringtone .mp3" type="audio/mp3" />
       </audio>
 
-      <button onclick="playAudio()" class="btn_1 btn-outline-warning">Ara</button>
+      <button onclick="playAudio()" onmouseout="pauseAudio()" class="btn_1 btn-outline-warning">Ara</button>
+      
       <button class="btn_2 btn-outline-primary">Bağlat</button>
 
       <button class="btn_3 btn-outline-danger">Konuş</button>
